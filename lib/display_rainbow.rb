@@ -1,6 +1,8 @@
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
-def display_rainbow(colors)
+def display_rainbow(anything)
+  puts anything
 end
 
-# display_rainbow
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+display_rainbow(colors)
